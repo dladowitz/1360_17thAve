@@ -35,6 +35,7 @@ neighboorhood-description: Jackson Square Historic District retains its characte
 # Get GPS Coordinates from http://www.gps-coordinates.net/
 map-longitude: "-122.40023"
 map-latitude: "37.79949"
+map-zoom-level: 14
 
 # Contact Section
 contact-us-background-image-url: "https://dl.dropboxusercontent.com/s/udahjg026txl67f/2015-09-18%2016.55.17.jpg?dl=0"
