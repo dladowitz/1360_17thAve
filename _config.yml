@@ -1,10 +1,11 @@
 # TODO Maps are being staticly loaded. Need to find a way to generate a map via gps coordinates.
+# TODO See if we can replace "https://www.dropbox.com" with "https://dl.dropboxusercontent.com" at complile time. Will make it easier to create sites.
 
 # Meta tag Images
-meta-tag-image-01: "https://dl.dropboxusercontent.com/s/56cpb9eb72ves83/IMG_9436.JPG"
-meta-tag-image-02: "https://dl.dropboxusercontent.com/s/pcoxq8nv4rorbno/IMG_9446.JPG"
-meta-tag-image-03:
-meta-tag-image-04:
+meta-tag-image-01: "https://dl.dropboxusercontent.com/s/xqard10xkt2rhcw/IMG_0183.JPG?dl=0"
+meta-tag-image-02: "https://dl.dropboxusercontent.com/s/2u507dwb1qksq53/IMG_0200.JPG?dl=0"
+meta-tag-image-03: "https://dl.dropboxusercontent.com/s/1pqh9y88jcejmoh/IMG_0468.JPG?dl=0"
+meta-tag-image-04: "https://dl.dropboxusercontent.com/s/s3fydx81ajpjvvk/IMG_0360.JPG?dl=0"
 
 # Domain
 domain: http://855front.captivaterealestate.com
@@ -12,18 +13,18 @@ domain: http://855front.captivaterealestate.com
 # Agent Info
 agent-name: Marshall Darr
 agent-phone: 408 867 5309
-agent-image-url: "https://dl.dropboxusercontent.com/s/5ae9oc5q8vuj230/marshall.jpg?dl=0"
+agent-image-url: "https://dl.dropboxusercontent.com/s/k9g328p1mgv9z0f/marshall.jpg?dl=0"
 agent-company: Captivate Real Estate
 agent-button-name-phone: "Marshall: 408 867 5309"
-  # Optional Agent Info
-  agent-license: 
-  agent-logo:
+# Optional Agent Info
+agent-license: "BRE #01245678"
+agent-logo:
 
 # Property Info
 property-street-address: 855 Front St
 property-full-address: 855 Front St. San Francisco, CA, 94111, United States
 property-tag-line: "You're Home"
-video-walkthrough-url: "https://dl.dropboxusercontent.com/s/8qbxbznbkwgkx68/650_anderson_walkthrough_2.mp4"
+video-walkthrough-url: "https://dl.dropboxusercontent.com/s/e1n2yzfyymryk4u/matterport-intro-video-downsized.mp4?dl=0"
 list-price: $100,000,000
 sqft: 5000
 number-of-beds: 9 Beds
@@ -31,19 +32,100 @@ number-of-baths: 8 Baths # TODO Fix alignment of baths in html
 matterport-embed-url: "https://my.matterport.com/show/?m=chQ3jHCT4Hp"
 property-description: Tradecraft is a full time, inperson immersive training program for people who want to work in startups. The program has been designed by industry leading experts to ensure that you graduate with both the depth and breadth of knowledge you’ll need to make meaningful contributions on your first day at a high growth startup. Once you select your vertical focus you will work with a large group of world class mentors and a small group of inspiring peers to learn new skills while doing real work for real companies.
 
+# Showings
+showings: [
+  {
+    weekday: Saturday,
+    date: October 24,
+    time: "2:00-4:00PM"
+  },
+  { weekday: Sunday,
+    date: October 25,
+    time: "2:00-4:00PM"
+  },
+  {
+    weekday: Tuesday,
+    date:    October 27,
+    time:    "11:00-12:30PM"
+  },
+  {
+    weekday: Thursday,
+    date:    October 29,
+    time:    "5:30-6:30PM"
+  }
+]
+
+# Highlight TODO figure out a way to do two lists side by side with only one highlight collection. Add Columns to Highlights
+highlights-1: [
+  attribute: Incredible Light & Views,
+  attribute: Luxury Renovation,
+  attribute: Open Floor Plan,
+  attribute: 3-4BR/2.5BA,
+]
+highlights-2: [
+  attribute: 11 Ft Ceilings,
+  attribute: Independent Garage,
+  attribute: "HOA Dues: $550/month",
+  attribute: "Sq Ft: 2300 per tax records",
+]
+
 # Neighboorhood
 neighboorhood-background-image-url: "http://jacksonsquaresf.com/wp-content/uploads/2014/10/jackson_sq_sign.jpg"
 neighboorhood-name: Jackson Square
 neighboorhood-description: Jackson Square Historic District retains its character as one of the oldest commercial neighborhoods in San Francisco. Though in some cases extensively altered during seismic retrofit, the collection of three story brick buildings found on the narrow streets and alleys offer a bright glimpse into the California Gold Rush that gave San Francisco its start. Buildings on the north side of Jackson between Montgomery and Sansome retain cast iron shutters as protection against fire, but when the city burned, in one case, a warehouses contents turned out to be more significant in saving the building
 # Get GPS Coordinates from http://www.gps-coordinates.net/
-  map-longitude: "-122.40023"
-  map-latitude: "37.79949"
-  map-zoom-level: 14
+map-longitude: "-122.40023"
+map-latitude: "37.79949"
+map-zoom-level: 14
 
 # Contact Section
 contact-us-background-image-url: "https://dl.dropboxusercontent.com/s/udahjg026txl67f/2015-09-18%2016.55.17.jpg?dl=0"
 agent-website: "http://www.tradecrafted.com"
 
-# TODO  Add gallery images here
-gallery-image-01: "https://dl.dropboxusercontent.com/s/56cpb9eb72ves83/IMG_9436.JPG?dl=0"
-gallery-image-02: "https://dl.dropboxusercontent.com/s/pcoxq8nv4rorbno/IMG_9446.JPG?dl=0"
+# Photo Gallery
+# Master Living Room
+gallery-image-01: "https://dl.dropboxusercontent.com/s/xqard10xkt2rhcw/IMG_0183.JPG?dl=0"
+gallery-image-02: "https://dl.dropboxusercontent.com/s/e77xs42k3b8754y/IMG_0175.JPG?dl=0"
+gallery-image-03: "https://dl.dropboxusercontent.com/s/ax6qzadbdgeb80e/IMG_0180.JPG?dl=0"
+
+# Master
+gallery-image-04: "https://dl.dropboxusercontent.com/s/2u507dwb1qksq53/IMG_0200.JPG?dl=0"
+gallery-image-05: "https://dl.dropboxusercontent.com/s/6vf2anfla6gvbns/IMG_0195.JPG?dl=0"
+gallery-image-06: "https://dl.dropboxusercontent.com/s/u6srj75ofhemrp6/IMG_0228.JPG?dl=0"
+
+# Front
+gallery-image-07: "https://dl.dropboxusercontent.com/s/1pqh9y88jcejmoh/IMG_0468.JPG?dl=0"
+gallery-image-08: "https://dl.dropboxusercontent.com/s/0a2c1dwl8jcwm6s/IMG_0482.JPG?dl=0"
+gallery-image-09: "https://dl.dropboxusercontent.com/s/00yyeb12o9mmkpv/IMG_0451.JPG?dl=0"
+
+# Kitchen
+gallery-image-10: "https://dl.dropboxusercontent.com/s/s3fydx81ajpjvvk/IMG_0360.JPG?dl=0"
+gallery-image-11: "https://dl.dropboxusercontent.com/s/tsh57o1vxd92m5y/IMG_0397.JPG?dl=0"
+gallery-image-12: "https://dl.dropboxusercontent.com/s/kobqxskw9m3pgd4/IMG_0386.JPG?dl=0"
+
+gallery-image-13: "https://dl.dropboxusercontent.com/s/keo5fch7uqkt7sv/IMG_0441.JPG?dl=0"
+gallery-image-14: "https://dl.dropboxusercontent.com/s/7trc3wshbghb9zw/IMG_0443.JPG?dl=0"
+gallery-image-15: "https://dl.dropboxusercontent.com/s/tsh57o1vxd92m5y/IMG_0397.JPG?dl=0"
+
+# Living Room
+gallery-image-16: "https://dl.dropboxusercontent.com/s/o5nn27b5v4o2pjc/IMG_0325.JPG?dl=0"
+gallery-image-17: "https://dl.dropboxusercontent.com/s/3ao0mt0701azuhv/IMG_0311.JPG?dl=0"
+gallery-image-18: "https://dl.dropboxusercontent.com/s/9p051jdfy3ahsok/IMG_0321.JPG?dl=0"
+
+# Yellow Bedroom
+gallery-image-19: "https://dl.dropboxusercontent.com/s/l3oiaytvab9g037/IMG_0268.JPG?dl=0"
+gallery-image-20: "https://dl.dropboxusercontent.com/s/8yleb4w4ku8rexy/IMG_0281.JPG?dl=0"
+gallery-image-21: "https://dl.dropboxusercontent.com/s/4fdiyoyjjdxvxvs/IMG_0273.JPG?dl=0"
+
+# Red Bedroom
+gallery-image-22: "https://dl.dropboxusercontent.com/s/runjwdqk2kxhe2l/IMG_0247.JPG?dl=0"
+gallery-image-23: "https://dl.dropboxusercontent.com/s/ryye13r0cj716ic/IMG_0257.JPG?dl=0"
+gallery-image-24: "https://dl.dropboxusercontent.com/s/vxz8pcho9m2y0e4/IMG_0243.JPG?dl=0"
+
+gallery-image-25: "https://dl.dropboxusercontent.com/s/eohiskl1an64zav/IMG_0426.JPG?dl=0"
+gallery-image-26: "https://dl.dropboxusercontent.com/s/53xggec5e42g0e9/IMG_0414.JPG?dl=0"
+gallery-image-27: "https://dl.dropboxusercontent.com/s/aklm1pqjf7gwuc0/IMG_0438.JPG?dl=0"
+
+gallery-image-28: "https://dl.dropboxusercontent.com/s/srfyh7ov0ldnuql/IMG_0497.JPG?dl=0"
+gallery-image-29:
+gallery-image-30:
