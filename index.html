@@ -34,10 +34,10 @@ author: Captivate Real Estate
     <meta property="og:url"         content="{{ site.domain }}"/>
     <meta property="og:type"        content="website"/>
     <meta property="og:description" content="{{ site.property-description }}"/>
-    <meta property="og:image"       content="{{ site.meta-tag-image-01}}"/>
-    <meta property="og:image"       content="{{ site.meta-tag-image-02}}"/>
-    <meta property="og:image"       content="{{ site.meta-tag-image-03}}"/>
-    <meta property="og:image"       content="{{ site.meta-tag-image-04}}"/>
+    <meta property="og:image"       content="{{ site.gallery-image-01 }}"/>
+    <meta property="og:image"       content="{{ site.gallery-image-04 }}"/>
+    <meta property="og:image"       content="{{ site.gallery-image-07 }}"/>
+    <meta property="og:image"       content="{{ site.gallery-image-10 }}"/>
     <meta itemprop="name"           content="{{ site.property-street-address}}"/>
     <meta itemprop="url"            content="{{ site.domain }}"/>
     <meta name="twitter:title"      content="{{ site.property-street-address }}"/>
@@ -263,8 +263,8 @@ author: Captivate Real Estate
                                       {{ site.agent-name }}
                                     </strong>
                                   </p>
-
                                   {% endif %}
+
                                   <p class="agent-details">
                                     {{ site.agent-company }}
                                     <br />
@@ -581,17 +581,17 @@ author: Captivate Real Estate
                       <!-- Photo Gallery Section-->
 
                       <!-- Schedule Area-->
-                      <br>
-                      <hr>
-                      <div class="sqs-block-content">
-                        <h1 class="text-align-center schedule-header">Schedule</h1>
+                      {% if site.showings %}
+                        <br>
+                        <hr>
+                        <div class="sqs-block-content">
+                          <h1 class="text-align-center schedule-header">Schedule</h1>
 
-                        <div class="row sqs-row">
-                          <div class="col sqs-col-12 span-12">
-                          <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1410808515393_74279">
+                          <div class="row sqs-row">
+                            <div class="col sqs-col-12 span-12">
+                            <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1410808515393_74279">
 
-                            <!-- Schedule Table -->
-                            {% if site.showings %}
+                              <!-- Schedule Table -->
                               <div class="sqs-block-content">
                                 <div class="text-align-center">
                                   <table class="table">
@@ -611,11 +611,11 @@ author: Captivate Real Estate
                                   </table>
                                 </div>
                               </div>
-                            {% endif %}
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    {% endif %}
                     <!-- Schedule Area-->
 
                   </div>

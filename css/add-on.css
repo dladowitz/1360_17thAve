@@ -35,6 +35,15 @@
   padding-left: 0px !important;
 }
 
+
+/*Agent Details*/
+.agent-name {
+  font-size: 1.5em;
+}
+.image-caption-wrapper {
+  margin-top: 5px;
+}
+
 /*Gallery*/
 .gallery-thumb-link {
   height: 200px;
