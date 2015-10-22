@@ -9,6 +9,32 @@
   width: 200px;
 }
 
+/*Only used when using font awesome icons*/
+  .home-icons-row {
+    margin: 20px 0 50px 0px;
+  }
+
+  .home-icon {
+    font-size: 70px;
+    color: #242D2E;
+  }
+
+  .home-icon-text {
+    font-size: 25px;
+  }
+
+  .home-icon-div {
+    width: 13% !important;
+  }
+
+  .highlights-block {
+    padding-left: 0px !important;
+  }
+
+.highlights-column {
+  padding-left: 0px !important;
+}
+
 /*Gallery*/
 .gallery-thumb-link {
   height: 200px;
